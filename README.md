@@ -1,5 +1,10 @@
 # multithread-file-compression-tool_task_4
-
+COMPANY: CODTECH IT SOLUTIONS PVT.LTD *
+NAME: sanjeev kumar karma 
+INTERN ID:CT04DG3178
+DOMAIN: C++ LANGUAGE 
+DURATION: 4 WEEKS
+MENTOR: NEELA SANTOSH KUMAR 
 
  paragraph:
  The provided C++ program is a multithreaded file compression tool that uses the Zlib library to compress a file efficiently by leveraging parallel processing. The core idea behind this implementation is to divide a large file into equal chunks and compress each chunk in a separate thread, thereby improving performance by taking advantage of multiple CPU cores. The program begins by defining a constant numThreads set to 4, which dictates the number of threads that will be used for compression. It declares two global vectors: compressedChunks to store the compressed data for each chunk, and threadTimes to store the time taken by each thread.
