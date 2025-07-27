@@ -20,3 +20,6 @@ Following the multithreaded compression, the program writes the compressed data 
 To compare the performance, the program also runs a single-threaded compression on the same chunks sequentially and records the total time. It then calculates the speedup gained from using multithreading by dividing the single-threaded duration by the multithreaded duration. The final output includes metrics like multithreaded and single-threaded times, performance gain (e.g., "2.5x Faster Using Threads"), and the compressed output file size in megabytes.
 
 This program effectively demonstrates how multithreading can significantly enhance the performance of CPU-intensive tasks like file compression. It’s a practical implementation of concurrent programming principles and can be extended further with additional features like decompression, dynamic thread allocation, or support for different compression algorithms.
+
+#OUTPUT :
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/74eeebcf-d40d-4492-9fcb-59048dae513a" />
